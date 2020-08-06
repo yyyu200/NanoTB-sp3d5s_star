@@ -9,3 +9,5 @@ Slater-Koster type sp3d5s* atomic basis semi-empirical parameters for main semic
 1D, 2D and 3D periodic structures of nanostructures up to millions of atoms; 
 
 Electronic band structures, density of states projected to local atom orbitals.
+
+Generate new  tight binding parameters from simulated-annealing algorithm.
