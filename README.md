@@ -29,8 +29,8 @@ TB parameters。
 ## 1.5 ref-eigen.dat 
 Referential eigenvalues, only appllicable in fitting mode(ISA=true). Usuallly get from DFT calculations, keep the same k-points mesh.
 
-#2. Control.inp settings
-```
+# 2. Control.inp settings
+```Fortran
 # NanoTB control tags  '#' for
 SYSTEM=TB  #(optional)the name of the system。
 LPRD = 1 1 1    # periodic boundary conditions 1 1 1 for the three dimensions
