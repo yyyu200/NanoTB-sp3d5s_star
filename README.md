@@ -1,8 +1,8 @@
 # sp3d5s_star
 
-An c++ software package aimed at quantum mechanics based atomistic simulation of semiconductor nanostructures using empiracal tight binding model. 
+An c++ software package aimed at quantum mechanics based atomistic simulation of semiconductor nanostructures using empirical tight binding model. 
 
-A excutable file is available by contact the author at yyyu200@163.com for trial usage. 
+A executable file is available by contact the author at yyyu200@163.com for trial usage. 
 
 ## Main features of NanoTB are: 
 
@@ -20,7 +20,7 @@ Calculation setup, parameters
 
 ## 1.2. kpt.inp
 
-k-points，support openmpi parrallel calculation of k-points.
+k-points，support openmpi parallel calculation of k-points.
 
 ## 1.3. pos.inp 
 Unit cell and atomic positions, similar to POSCAR.
@@ -29,7 +29,7 @@ Unit cell and atomic positions, similar to POSCAR.
 TB parameters.
 
 ## 1.5 ref-eigen.dat 
-Referential eigenvalues, only appllicable in fitting mode(ISA=true). Usuallly get from DFT calculations, keep the same k-points mesh.
+Referential eigenvalues, only applicable in fitting mode(ISA=true). Usually get from DFT calculations, keep the same k-points mesh.
 
 # 2. Control.inp settings
 
@@ -53,7 +53,7 @@ MATFNAM=mat.inp # the filename of TB-parameters
 ISA=false #whether fitting the TB parameters using simulated annealing algorithm (SA).
 ITBOUT=true # whether to update output when doing SA. set to false when ISA=true.
 
-#SA parameters (optional, only appllicable when ISA=true)，See gsl manual (The GNU Scientific Library, http://www.gnu.org/software/gsl/)
+#SA parameters (optional, only applicable when ISA=true)，See gsl manual (The GNU Scientific Library, http://www.gnu.org/software/gsl/)
 N_TRIES=20 #
 ITERS_FIXED_T=100
 STEP_SIZE=1e-2
@@ -63,7 +63,7 @@ MU_T=1.108
 
 # Add the weight of specific eigenvalues to the fitting object function. Can help to converge better to the desired eigenvalues.
 FITK=6 0  # Add the weights of the sixth and the 0-th k-point, use with FITBAND
-FITBAND=8 10 # Add the weights of the eighth and the tenth band of the sixth and the 0-th k-point. 
-FITGAP=0.19 4.128574 # help to fit the band gap at the kpoints.
+FITBAND=8 10 # Add the weights of the eighth and the tenth band of the sixth and the 0-th k-points. 
+FITGAP=0.19 4.128574 # help to fit the band gap at the k-points.
 FITEIG=6 8 0.0 #help to fit the valence band maximum to 0.
 ```
