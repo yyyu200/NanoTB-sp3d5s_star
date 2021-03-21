@@ -2,7 +2,7 @@
 
 An c++ software package aimed at quantum mechanics based atomistic simulation of semiconductor nanostructures using empirical tight binding model. 
 
-A executable file is available by contact the author at yyyu200@163.com for trial usage. 
+Executable file and input files examples are available by contacting the author by email yyyu200@163.com for trial usage. 
 
 ## Main features of NanoTB are: 
 
